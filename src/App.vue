@@ -14,13 +14,18 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+}
 #app {
+  display: flex;
+  flex-direction: column;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /*background-image: url("./assets/Imgs/BonesBackground1.jpg");*/
+  background-image: url("./assets/Imgs/BonesBackground1.jpg");
   height: 100vh;
 }
 </style>
